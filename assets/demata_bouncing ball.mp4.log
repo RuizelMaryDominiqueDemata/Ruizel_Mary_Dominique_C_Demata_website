@@ -1,0 +1,20 @@
+C:/Program Files/Krita (x64)/bin/ffmpeg.exe -hide_banner -y -y -r 24 -start_number 0 -start_number_range 1 -i C:/Mary_final_website/Demata_website/dist/assets/frame%04d.png -vf scale=w=1920:h=1058:flags=bicubic -c:v libopenh264 -b:v 5000k C:/Mary_final_website/Demata_website/dist/assets/demata_bouncing ball.mp4
+=====================================================
+Input #0, image2, from 'C:/Mary_final_website/Demata_website/dist/assets/frame%04d.png':
+  Duration: 00:00:04.04, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgba(pc), 4500x2480 [SAR 11811:11811 DAR 225:124], 25 fps, 25 tbr, 25 tbn, 25 tbc
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libopenh264))
+Press [q] to stop, [?] for help
+[libopenh264 @ 000001fb4988f400] Slice count will be set automatically
+[libopenh264 @ 000001fb4988f400] [OpenH264] this = 0x000001FB497D3470, Warning:bEnableFrameSkip = 0,bitrate can't be controlled for RC_QUALITY_MODE,RC_BITRATE_MODE and RC_TIMESTAMP_MODE without enabling skip frame.
+Output #0, mp4, to 'C:/Mary_final_website/Demata_website/dist/assets/demata_bouncing ball.mp4':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 1920x1058 [SAR 7935:7936 DAR 225:124], q=2-31, 5000 kb/s, 24 fps, 12288 tbn
+    Metadata:
+      encoder         : Lavc58.134.100 libopenh264
+    Side data:
+      cpb: bitrate max/min/avg: 5000000/0/5000000 buffer size: 0 vbv_delay: N/A
+frame=    1 fps=0.0 q=-0.0 size=       0kB time=00:00:00.00 bitrate=4740.7kbits/s speed=0.00125x    frame=    9 fps=0.0 q=-0.0 size=       0kB time=00:00:00.33 bitrate=   1.2kbits/s speed=0.54x    frame=   21 fps= 19 q=-0.0 size=       0kB time=00:00:00.83 bitrate=   0.5kbits/s speed=0.734x    frame=   33 fps= 20 q=-0.0 size=       0kB time=00:00:01.33 bitrate=   0.3kbits/s speed=0.806x    frame=   47 fps= 22 q=-0.0 size=       0kB time=00:00:01.91 bitrate=   0.2kbits/s speed=0.88x    frame=   60 fps= 22 q=-0.0 size=       0kB time=00:00:02.45 bitrate=   0.2kbits/s speed=0.913x    frame=   74 fps= 23 q=-0.0 size=       0kB time=00:00:03.04 bitrate=   0.1kbits/s speed=0.95x    frame=   88 fps= 24 q=-0.0 size=       0kB time=00:00:03.62 bitrate=   0.1kbits/s speed=0.973x    frame=  101 fps= 24 q=-0.0 size=       0kB time=00:00:04.16 bitrate=   0.1kbits/s speed=0.98x    frame=  101 fps= 24 q=-0.0 Lsize=     239kB time=00:00:04.16 bitrate= 469.3kbits/s speed=0.98x    
+video:237kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.515313%

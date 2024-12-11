@@ -1,0 +1,15 @@
+C:/Program Files/Krita (x64)/bin/ffmpeg.exe -hide_banner -y -y -r 24 -start_number 0 -start_number_range 1 -i C:/Mary_final_website/Demata_website/dist/assets/frame%04d.png -c:v libopenh264 -b:v 5000k C:/Mary_final_website/Demata_website/dist/assets/demata_bouncing ball.mkv
+=====================================================
+Input #0, image2, from 'C:/Mary_final_website/Demata_website/dist/assets/frame%04d.png':
+  Duration: 00:00:01.48, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgba(pc), 4500x2480 [SAR 11811:11811 DAR 225:124], 25 fps, 25 tbr, 25 tbn, 25 tbc
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libopenh264))
+Press [q] to stop, [?] for help
+[libopenh264 @ 000001ea3d233c80] Slice count will be set automatically
+[libopenh264 @ 000001ea3d233c80] [OpenH264] this = 0x000001EA3A23DCE0, Error:ParamValidationExt(), width > 0, height > 0, width * height <= 9437184, invalid 4512 x 2480 in dependency layer settings!
+[libopenh264 @ 000001ea3d233c80] [OpenH264] this = 0x000001EA3A23DCE0, Error:WelsInitEncoderExt(), ParamValidationExt failed return 2.
+[libopenh264 @ 000001ea3d233c80] [OpenH264] this = 0x000001EA3A23DCE0, Error:CWelsH264SVCEncoder::Initialize(), WelsInitEncoderExt failed.
+[libopenh264 @ 000001ea3d233c80] Initialize failed
+Error initializing output stream 0:0 -- Error while opening encoder for output stream #0:0 - maybe incorrect parameters such as bit_rate, rate, width or height
+Conversion failed!

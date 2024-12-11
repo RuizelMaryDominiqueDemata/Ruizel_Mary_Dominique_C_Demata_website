@@ -1,0 +1,20 @@
+C:/Program Files/Krita (x64)/bin/ffmpeg.exe -hide_banner -y -y -r 24 -start_number 0 -start_number_range 1 -i C:/Mary_final_website/Demata_website/dist/assets/frame%04d.png -vf scale=w=1920:h=1058:flags=bicubic -c:v libopenh264 -b:v 5000k C:/Mary_final_website/Demata_website/dist/assets/demata_stickman walk.mp4
+=====================================================
+Input #0, image2, from 'C:/Mary_final_website/Demata_website/dist/assets/frame%04d.png':
+  Duration: 00:00:01.36, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgba(pc), 4500x2480 [SAR 11811:11811 DAR 225:124], 25 fps, 25 tbr, 25 tbn, 25 tbc
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libopenh264))
+Press [q] to stop, [?] for help
+[libopenh264 @ 0000025be5d991c0] Slice count will be set automatically
+[libopenh264 @ 0000025be5d991c0] [OpenH264] this = 0x0000025BE2B01F90, Warning:bEnableFrameSkip = 0,bitrate can't be controlled for RC_QUALITY_MODE,RC_BITRATE_MODE and RC_TIMESTAMP_MODE without enabling skip frame.
+Output #0, mp4, to 'C:/Mary_final_website/Demata_website/dist/assets/demata_stickman walk.mp4':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 1920x1058 [SAR 7935:7936 DAR 225:124], q=2-31, 5000 kb/s, 24 fps, 12288 tbn
+    Metadata:
+      encoder         : Lavc58.134.100 libopenh264
+    Side data:
+      cpb: bitrate max/min/avg: 5000000/0/5000000 buffer size: 0 vbv_delay: N/A
+frame=    1 fps=0.0 q=-0.0 size=       0kB time=00:00:00.00 bitrate=4740.7kbits/s speed=0.00128x    frame=    9 fps=0.0 q=-0.0 size=       0kB time=00:00:00.33 bitrate=   1.2kbits/s speed=0.586x    frame=   21 fps= 20 q=-0.0 size=       0kB time=00:00:00.83 bitrate=   0.5kbits/s speed=0.778x    frame=   34 fps= 21 q=-0.0 size=       0kB time=00:00:01.37 bitrate=   0.3kbits/s speed=0.865x    frame=   34 fps= 21 q=-0.0 Lsize=     231kB time=00:00:01.37 bitrate=1377.4kbits/s speed=0.847x    
+video:230kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.417787%
